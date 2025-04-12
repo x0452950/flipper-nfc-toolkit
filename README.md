@@ -2,7 +2,7 @@
 
 **Graduate Capstone Project**
 
-Goal: Reverse-engineered Flipper Zero firmware to unlock custom NFC workflows, advanced emulation, and specialized card analysis.
+This project involves reverse-engineering the Flipper Zero firmware to develop a custom NFC toolchain, enabling advanced emulation, protocol-level customization, and specialized card analysis workflows.
 
 A custom firmware extension for Flipper Zero, focused on creating an NFC toolkit capable of spoofing, fuzzing, and emulating various NFC tags. Developed as part of a cybersecurity graduate capstone.
 
