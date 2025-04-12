@@ -28,9 +28,9 @@ A custom firmware extension for Flipper Zero, focused on creating an NFC toolkit
 ## Project Structure
 ```
 applications_user/
-â””â”€â”€ nfc_custom/
-    â”œâ”€â”€ nfc_custom.c         // Core tool logic
-    â””â”€â”€ CMakeLists.txt       // Build configuration
+└── nfc_custom/
+    ├── nfc_custom.c         // Core tool logic
+    └── CMakeLists.txt       // Build configuration
 ```
 
 ## Technologies
