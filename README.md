@@ -4,6 +4,8 @@
 
 A custom firmware extension for Flipper Zero, focused on creating an NFC toolkit capable of spoofing, fuzzing, and emulating various NFC tags. Developed as part of a cybersecurity graduate capstone.
 
+![NFC Toolkit Demo](demo.png)
+
 ## Features
 - Custom NDEF tag emulation
 - NTAG215 spoofing with custom memory blocks
@@ -11,8 +13,8 @@ A custom firmware extension for Flipper Zero, focused on creating an NFC toolkit
 - Clean integration with official Flipper Zero firmware
 
 ## How to Use
-1. Clone the [flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) repo
-2. Copy `applications_user/nfc_custom` into the firmware root
+1. Clone the [flipperzero-firmware](https://github.com/flipperdevices/flipperzero-firmware) repo  
+2. Copy `applications_user/nfc_custom` into the firmware root  
 3. Add this line to `applications_user/CMakeLists.txt`:
    ```cmake
    add_subdirectory(nfc_custom)
@@ -26,9 +28,9 @@ A custom firmware extension for Flipper Zero, focused on creating an NFC toolkit
 ## Project Structure
 ```
 applications_user/
-└── nfc_custom/
-    ├── nfc_custom.c         // Core tool logic
-    └── CMakeLists.txt       // Build configuration
+â””â”€â”€ nfc_custom/
+    â”œâ”€â”€ nfc_custom.c         // Core tool logic
+    â””â”€â”€ CMakeLists.txt       // Build configuration
 ```
 
 ## Technologies
